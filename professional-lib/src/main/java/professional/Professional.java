@@ -1,3 +1,4 @@
+package professional;
 import java.util.ArrayList;
 
 public abstract class Professional 

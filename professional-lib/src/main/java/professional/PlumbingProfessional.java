@@ -1,3 +1,4 @@
+package professional;
 
 public class PlumbingProfessional extends Professional 
 implements IPlummingProfessional 

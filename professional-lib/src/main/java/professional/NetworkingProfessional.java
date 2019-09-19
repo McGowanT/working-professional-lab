@@ -1,8 +1,13 @@
+package professional;
 
 public class NetworkingProfessional extends Professional 
 implements INetworkingProfessional 
 {
-
+	public NetworkingProfessional()
+	{
+		super(null);
+	}
+	
 	public NetworkingProfessional(String name) 
 	{
 		super(name);
@@ -17,7 +22,8 @@ implements INetworkingProfessional
 
 	public boolean fixRouter(Router rout, Tool tool) 
 	{
-		// TODO Auto-generated method stub
+	    System.out.println("Router"+ rout);
+	    System.out.println("Tool" + tool);
 		return false;
 	}
 
