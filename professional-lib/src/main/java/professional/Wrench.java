@@ -6,7 +6,7 @@ public class Wrench extends Tool
 
 	public Wrench() 
 	{
-		super("tool");
+		super(null);
 		size = 0.0f;
 	}
 

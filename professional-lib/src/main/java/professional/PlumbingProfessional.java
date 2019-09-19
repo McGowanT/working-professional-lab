@@ -1,9 +1,14 @@
 package professional;
 
 public class PlumbingProfessional extends Professional 
-implements IPlummingProfessional 
+implements IPlumbingProfessional 
 {
 
+	public PlumbingProfessional()
+	{
+		super(null);
+	}
+	
 	public PlumbingProfessional(String name) 
 	{
 		super(name);

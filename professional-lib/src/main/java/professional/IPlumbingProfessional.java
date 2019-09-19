@@ -1,6 +1,6 @@
 package professional;
 
-public interface IPlummingProfessional 
+public interface IPlumbingProfessional 
 {
 	public boolean fixPipe(Pipe pipe, Tool tool);
 }
