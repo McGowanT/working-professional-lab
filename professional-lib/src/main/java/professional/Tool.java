@@ -11,6 +11,6 @@ public class Tool
 
 	public boolean fix(BreakableItem item) 
 	{
-		return false;
+		return true;
 	}
 }

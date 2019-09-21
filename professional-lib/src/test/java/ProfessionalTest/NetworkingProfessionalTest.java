@@ -1,6 +1,11 @@
-import org.junit.Assert;
+package ProfessionalTest;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 import professional.*;
+
 
 public class NetworkingProfessionalTest 
 {
@@ -9,10 +14,11 @@ public class NetworkingProfessionalTest
 	Tool p = new Pliers();
 	Router w = new CiscoRouter();
 	
+	@Test
 	public void shouldFixRouter()
 	{
 		boolean fix = net.fixRouter(w, p);
-		Assert.assertTrue("Should be able to fix the router", fix);
+		assertTrue("Should be able to fix router", fix);
 	}
 	
 }

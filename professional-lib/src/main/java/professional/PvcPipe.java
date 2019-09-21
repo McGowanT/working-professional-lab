@@ -15,9 +15,8 @@ public class PvcPipe extends Pipe
 		this.colour = colour;
 	}
 
-	public void updateDamage(float T) 
+	public void updateDamage(float T)
 	{
-		// TODO Auto-generated method stub
-
+		System.out.println("This pipe is damaged.");
 	}
 }

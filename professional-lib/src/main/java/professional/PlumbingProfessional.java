@@ -15,12 +15,6 @@ implements IPlumbingProfessional
 		// TODO Auto-generated constructor stub
 	}
 
-	public boolean fixPipe() 
-	{
-		// TODO Auto-generated method stub
-		return false;
-	}
-
 	@Override
 	public void addCertification(Certification certifi) 
 	{
@@ -30,8 +24,10 @@ implements IPlumbingProfessional
 
 	public boolean fixPipe(Pipe pipe, Tool tool) 
 	{
-		// TODO Auto-generated method stub
-		return false;
+		 System.out.println(" The pipe is being fixed. ");
+		 System.out.println("\n");
+		 System.out.println(" The appropriate tool is being used. ");
+		return true;
 	}
 
 }

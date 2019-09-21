@@ -22,9 +22,11 @@ implements INetworkingProfessional
 
 	public boolean fixRouter(Router rout, Tool tool) 
 	{
-	    System.out.println("Router"+ rout);
-	    System.out.println("Tool" + tool);
-		return false;
+	   
+		System.out.println(" The router is being fixed. ");
+	    System.out.println("\n");
+	    System.out.println(" The appropriate tool is being used. ");
+	    return true;
 	}
 
 }

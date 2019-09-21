@@ -1,7 +1,10 @@
+package ProfessionalTest;
 
 import org.junit.Assert;
+import org.junit.Test;
 
 import professional.*;
+
 
 public class PlumbingProfessionalTest 
 {
@@ -10,6 +13,7 @@ public class PlumbingProfessionalTest
 	Tool tl = new Wrench();
 	Pipe pip = new PvcPipe();
 	
+	@Test
 	public void shouldFixPipe()
 	{
 		boolean fixed = plumb.fixPipe(pip, tl);
