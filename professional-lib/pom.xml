@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.library.ap</groupId>
   <artifactId>professional-lib</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>working-professional-lib</name>
   <description>Professional Library</description>
   <build>
