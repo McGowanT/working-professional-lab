@@ -1,7 +1,9 @@
 package professional;
 public abstract class Router implements BreakableItem 
 {
+	@SuppressWarnings("unused")
 	private String brand;
+	@SuppressWarnings("unused")
 	private float bandwidth;
 
 	public Router() 
@@ -18,5 +20,10 @@ public abstract class Router implements BreakableItem
 	}
 
 	public abstract void updateDamage(float T);
+
+	@Override
+	public String toString() {
+		return "Router [brand=" + brand + ", bandwidth=" + bandwidth + "]";
+	}
 
 }

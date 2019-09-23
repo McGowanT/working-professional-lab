@@ -1,6 +1,7 @@
 package professional;
 public class Tool 
 {
+	@SuppressWarnings("unused")
 	private String brand;
 
 	public Tool(String brand) 

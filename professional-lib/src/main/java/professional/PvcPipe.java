@@ -2,6 +2,7 @@ package professional;
 
 public class PvcPipe extends Pipe 
 {
+	@SuppressWarnings("unused")
 	private String colour;
 
 	public PvcPipe() 

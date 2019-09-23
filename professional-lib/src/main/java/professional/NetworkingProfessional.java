@@ -17,7 +17,7 @@ implements INetworkingProfessional
 	@Override
 	public void addCertification(Certification certifi) 
 	{
-		System.out.println("I have these certifications " + certifi);
+		System.out.println("\n The certification has been added for: " + getName() + "\n");
 	}
 
 	public boolean fixRouter(Router rout, Tool tool) 

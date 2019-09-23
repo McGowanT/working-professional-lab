@@ -2,6 +2,7 @@ package professional;
 
 public final class CiscoRouter extends Router 
 {
+	@SuppressWarnings("unused")
 	private int ciscoCode;
 
 	public CiscoRouter() 

@@ -6,13 +6,13 @@ public class Pliers extends Tool
 
 	public Pliers() 
 	{
-		super("tool");
+		super(null);
 		colour = "";
 	}
 
 	public Pliers(String colour) 
 	{
-		super("tool");
+		super(null);
 		this.colour = colour;
 	}
 
@@ -22,5 +22,11 @@ public class Pliers extends Tool
 		// TODO Auto-generated method stub
 		return super.fix(item);
 	}
+
+	@Override
+	public String toString() {
+		return "Pliers [colour=" + colour + "]";
+	}
+
 
 }

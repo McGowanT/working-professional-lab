@@ -12,7 +12,7 @@ public class Wrench extends Tool
 
 	public Wrench(float size) 
 	{
-		super("tool");
+		super(null);
 		this.size = size;
 	}
 
@@ -23,4 +23,10 @@ public class Wrench extends Tool
 		return super.fix(item);
 	}
 
+	@Override
+	public String toString() {
+		return "Wrench [size=" + size + "]";
+	}
+
+	
 }
